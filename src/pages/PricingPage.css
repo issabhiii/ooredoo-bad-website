@@ -1,0 +1,68 @@
+.pricing-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-bottom: 2rem;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.pricing-card {
+  position: relative;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius);
+  padding: 1.75rem;
+  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.08);
+}
+
+.pricing-card.featured {
+  border-color: var(--accent);
+  box-shadow: 0 18px 44px rgba(99, 102, 241, 0.18);
+}
+
+.pricing-tag {
+  position: absolute;
+  top: -12px;
+  left: 1.25rem;
+  background: var(--accent);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+}
+
+.pricing-price {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.pricing-blurb {
+  color: var(--light-muted);
+  min-height: 3rem;
+}
+
+.pricing-card ul {
+  margin: 1rem 0 1.5rem;
+  padding-left: 1.1rem;
+  color: var(--light-text);
+}
+
+.pricing-card li + li {
+  margin-top: 0.35rem;
+}
+
+.comparison-note {
+  margin: -0.5rem 0 1.5rem;
+  padding: 1rem 1.15rem;
+  border-radius: 10px;
+  background: #eef2ff;
+  color: #3730a3;
+  border: 1px solid #c7d2fe;
+}
