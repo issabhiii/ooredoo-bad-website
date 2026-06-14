@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" rx="16" fill="url(#bg)"/>
+  <rect x="24" y="24" width="592" height="48" rx="10" fill="#111827" stroke="#334155"/>
+  <circle cx="48" cy="48" r="8" fill="#6366f1"/>
+  <rect x="72" y="40" width="120" height="16" rx="4" fill="#334155"/>
+  <rect x="24" y="92" width="160" height="304" rx="12" fill="#111827" stroke="#334155"/>
+  <rect x="40" y="112" width="128" height="12" rx="3" fill="#475569"/>
+  <rect x="40" y="136" width="96" height="12" rx="3" fill="#334155"/>
+  <rect x="40" y="160" width="112" height="12" rx="3" fill="#334155"/>
+  <rect x="200" y="92" width="416" height="180" rx="12" fill="#111827" stroke="#334155"/>
+  <polyline points="230,240 280,190 330,210 380,150 430,170 480,120 530,140" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="200" y="288" width="200" height="108" rx="12" fill="#111827" stroke="#334155"/>
+  <rect x="220" y="312" width="160" height="12" rx="3" fill="#475569"/>
+  <rect x="220" y="336" width="120" height="40" rx="6" fill="#6366f1" opacity="0.35"/>
+  <rect x="416" y="288" width="200" height="108" rx="12" fill="#111827" stroke="#334155"/>
+  <rect x="436" y="312" width="160" height="12" rx="3" fill="#475569"/>
+  <rect x="436" y="336" width="140" height="40" rx="6" fill="#8b5cf6" opacity="0.35"/>
+</svg>
