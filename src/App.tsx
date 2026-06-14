@@ -9,7 +9,7 @@ import './App.css';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ooredoo-bad-website">
       <div className="app-shell">
         <Header />
         <main>

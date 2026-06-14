@@ -38,5 +38,6 @@ function nexusflowDevPlugin(): Plugin {
 }
 
 export default defineConfig({
+  base: '/ooredoo-bad-website/',
   plugins: [react(), nexusflowDevPlugin()],
 });
